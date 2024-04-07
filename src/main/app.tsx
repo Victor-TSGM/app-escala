@@ -8,6 +8,7 @@ import Layout from '@/presentation/Components/Layout/Layout'
 import { icon } from '@fortawesome/fontawesome-svg-core'
 import { Cadastros } from '@/presentation/pages/Cadastros/Cadastros'
 import FuncionarioIndex from '@/presentation/pages/Funcionario/FuncionarioIndex'
+import FuncionarioForm from '@/presentation/pages/Funcionario/CRUD/FuncionarioForm'
 // --> Pages
 
 export const App = (): JSX.Element => {
@@ -27,7 +28,8 @@ export const App = (): JSX.Element => {
           children={[
             <Route key={Math.random()} path="/" element={<Home />} />,
             <Route key={Math.random()} path="/cadastros" element={<Cadastros />} />,
-            <Route key={Math.random()} path="/funcionario" element={<FuncionarioIndex />} />
+            <Route key={Math.random()} path="/funcionario" element={<FuncionarioIndex />} />,
+            <Route key={Math.random()} path="/funcionario/novo" element={<FuncionarioForm  />} />
           ]}
         />
       </BrowserRouter>

@@ -51,7 +51,6 @@ const Layout = (props: Props) => {
         }
       </div>
       <div className="layout-header">
-        <div className="logo">Logo</div>
         <div className="header-title">{props.title}</div>
       </div>
       <div className="layout-content">

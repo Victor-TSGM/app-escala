@@ -68,6 +68,8 @@
     "webpack-merge": "^5.9.0"
   },
   "dependencies": {
+    "@fluentui/react-components": "^9.47.5",
+    "@fluentui/react-icons": "^2.0.234",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",

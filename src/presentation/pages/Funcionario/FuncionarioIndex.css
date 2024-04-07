@@ -8,4 +8,6 @@
 .crud-bar {
   background: #000000;
   height: 64px;
+  display: flex;
+  align-items: center;
 }
